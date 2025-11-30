@@ -15,6 +15,7 @@ import views.Login;
  */
 public class InicioSistema {
     
+    //Cambio realizado por Mikel U2
     public static void main(String[] args) {
         if(Conexion.verificarUsuario()==true){
             Login frmLogin = new Login(); 
