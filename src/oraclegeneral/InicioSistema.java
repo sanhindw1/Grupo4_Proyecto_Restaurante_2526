@@ -24,6 +24,7 @@ public class InicioSistema {
             Login frmLogin = new Login();
             frmLogin.setVisible(true);
             }
+            //Cambio realizado por JeanPaul U3
         }
             }
 
