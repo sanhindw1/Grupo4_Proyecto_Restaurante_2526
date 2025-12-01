@@ -24,6 +24,7 @@ public class InicioSistema {
             if((Conexion.creacionUsuario() ==true) && (Conexion.creacionBase()==true)){
             Login frmLogin = new Login();
             frmLogin.setVisible(true);
+            System.out.println("Inicio de usuario correcto");
             }
         }
             }
