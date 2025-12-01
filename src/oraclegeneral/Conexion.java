@@ -38,7 +38,7 @@ public class Conexion {
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
             con = DriverManager.getConnection(url, usuario, contrasena);
-            
+            System.out.println("Conexion creada - cambio U3 para Pull Request");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {
