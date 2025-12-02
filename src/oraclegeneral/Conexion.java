@@ -38,7 +38,7 @@ public class Conexion {
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
             con = DriverManager.getConnection(url, usuario, contrasena);
-            
+            System.out.println("Conexion creada - cambio U3 para Pull Request");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {
@@ -106,6 +106,15 @@ public class Conexion {
      */
     public static Boolean creacionUsuario() {
         JOptionPane.showMessageDialog(null, "Lo sentimos es la primera vez que entrara al sistema.\n"
+ feature/U3_modificacion
+ feature/U3_modificacion
+            + "Pongase en contacto con su DBA para que ingrese la contraseña del usuario numero 1, numero 2 y numero 3 \"System\" ...");
+
+
+
+                + "Pongase en contacto con su DBA para que ingrese la contraseña del usuario numero 1 \"System\" ...");
+ develop
+
  feature/U2_modificacion
 feature/U2_modificacion
             + "Pongase en contacto con su DBA para que ingrese la contraseña del usuario numero 1, numero 2 y numero 3 \"System\" ...");
@@ -119,6 +128,7 @@ develop
 
 
                 + "Pongase en contacto con su DBA para que ingrese la contraseña del usuario numero 1 \"System\" ...");
+ develop
  develop
  develop
         File file = new File("CrearUsuario.txt");
